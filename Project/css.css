@@ -47,12 +47,34 @@ header {
     color: #800000; /* Color de los hipervínculos */
 }
 
+.footer {
+    list-style-type: none;
+    position: relative; 
+    bottom: 0; 
+    width: 100%; 
+    background-color: #B88B5C;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+.footer a {
+    text-decoration: none; /* Quita el subrayado de los hipervínculos */
+    color: #800000; /* Color de los hipervínculos */
+    font-size: 150%;
+    margin: 0 10px
+}
+
+#redes {
+    text-align: center;
+    color: #800000;
+} 
+
 #foto {
     background-image: url(Yo.jpg);
     height: 300px;
 }
 
-#footer{
-
+#contenido {
+    margin-right: 50px;
+    margin-left: 50px;
 }
-

@@ -9,9 +9,15 @@ Este repositorio tiene como objetivo principal hablar sobre la vida principal de
 ### Redes Sociales: Github, Instagram
 ### Foto: Instagram
 
+#### Escoger otras imagenes para el resto del contenido:
+- Sobre mí: Foto de Instagram
+- Intereses: Imagen sobre el parkour, fútbol, y Roma
+- Estudio: Computador y Negocio
+
+
 ## Autor: Juan Nicolás Peñaranda Díaz
 
-uwuwuwuwuwuwu
+
 
 # bit-g07/docs
 ## 1 Proyecto calificable
