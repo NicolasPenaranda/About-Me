@@ -11,7 +11,7 @@ Este repositorio tiene como objetivo principal hablar sobre la vida principal de
 
 ## Autor: Juan Nicolás Peñaranda Díaz
 
-
+uwuwuwuwuwuwu
 
 # bit-g07/docs
 ## 1 Proyecto calificable
