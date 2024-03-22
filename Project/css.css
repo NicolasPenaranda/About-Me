@@ -7,14 +7,27 @@
     url('Font/B612-Regular.woff') format('woff');
 }
 
-body {
-    max-width: 100%;
-    overflow-x: hidden;
-    margin: 0;
-    background-color: #F4E4C8 ;
-    color: #7C3030;
-    font-family: 'fuente', monospace;
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 14px; /* Se reduce el tamaño de la fuente para pantallas pequeñas */
+    }
 }
+
+body {
+    margin: 0;
+    font-family: 'fuente', monospace; /*Declaracion de fuente*/ 
+    background-color: #F4E4C8 ;     /*Color  Principal: #F4E4C8*/
+    color: #7C3030;                 /*Color Secundario: #7C3030*/
+    max-width: 100%;
+    overflow-x: hidden; /* Para que no se muestre la barra lateral inferior*/
+    
+}
+
+h2 {
+    text-align: center;
+    line-height: 1.5em;
+}
+
 
 footer{
     position: relative;
@@ -26,52 +39,49 @@ footer{
 }
 
 footer a {
-    position: relative;
+    position: relative; /*Se establece el tamaño y la posición de los hipervinculos*/
     top: 12.5px;
     margin: 50px;
     color: #F4E4C8;
     text-decoration: none;
 }
 
-h2 {
-    text-align: center;
-    line-height: 1.5em;
-}
-
-.banner {
-    position: relative;
+.banner {           
+    position: relative;     /*Se establece la posición de la "caja" del banner*/
     width: 100%;
     text-align: center;
     z-index: 1; 
 }
 
 .banner img {
-    object-position: center 40%;
+    object-position: center 40%; /*Se ajusta la imagen para que se vea mejor*/
     object-fit: cover;
-    width: 1500px;
+    width: 1500px; /*Establece el tamaño del banner*/
     height: 400px;
 }
 
-#inicio {
-    background-color: #7C3030;
-    color: #F4E4C8;
-    position: relative;
+#portada {
+    position: relative; /*Establece parámetros generales de la portada*/
     padding: 0;
     margin-top: -10px;
+    background-color: #7C3030;  
+    color: #F4E4C8;
 }
 
 #red-ph {
-    position: absolute;
+    position: absolute; /*Establece posición del icono que dirige al apartado redes*/
     left: 88%;
     top: 5%;
     width: 50px;
 }
 
 #foto {
+    background-image: url(Yo.jpg); /*Se escoge la imagen que se utiliza*/
     position: relative;
     object-fit: cover;
     object-position: center 25%;
-    background-image: url(Yo.jpg);
+
+    /*Establece borde de la imagen, tamaño, y posición de la foto*/
     height: 275px;
     width: 275px;
     border-radius: 50%;
@@ -83,7 +93,7 @@ h2 {
 }
 
 #nombre {
-    position: relative;
+    position: relative; /*Etablece características del nombre bajo la foto*/
     height: auto;
     width: auto;
     font-size: 24px;
@@ -92,15 +102,7 @@ h2 {
     z-index: 2;
 }
 
-#contenido {
-    padding: 0;
-    margin: 3.5%;
-    text-align: justify;
-    line-height: 1.5em;
-    font-size: 18px;
-}
-
-#descripcion {
+#descripcion {    /*Establece posición y parámetros de la descripción de la portada*/
     line-height: 1.5em;
     margin: 3.5%;
     margin-top: 0;
@@ -109,7 +111,15 @@ h2 {
     font-size: 18px;
 }
 
-#icono {
+#contenido {    /*Establece posición y parámetros del contenido de la página*/
+    padding: 0;
+    margin: 3.5%;
+    text-align: justify;
+    line-height: 1.5em;
+    font-size: 18px;
+}
+
+#icono {    /*Iconos de las redes sociales*/
     position: absolute;
     width: 50px;
 }
