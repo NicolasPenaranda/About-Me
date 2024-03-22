@@ -16,7 +16,13 @@
     }
     .banner img {
         object-position: center;
+        object-fit: fill;
         width: 100%;
+        overflow-x: hidden;
+    }
+    .banner {
+        width: 100%;
+        overflow-x: hidden;
     }
 }
 
