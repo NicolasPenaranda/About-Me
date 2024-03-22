@@ -10,6 +10,7 @@
 @media screen and (max-width: 600px) {
     body {
         font-size: 14px; /* Se reduce el tamaño de la fuente para pantallas pequeñas */
+        overflow-x: hidden;
     }
     #icono {
         width: 25px;
