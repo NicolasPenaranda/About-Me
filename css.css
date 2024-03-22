@@ -13,8 +13,9 @@
         overflow-x: hidden;
     }
     #icono {
-        width: 25px; /* Se reduce el tamaño de los iconos en dispositivos moviles*/
-        height: auto;
+        position: static; /* Cambiar a posición estática para permitir el flujo del documento */
+        display: block; /* Cambiar a elemento de bloque para apilar verticalmente */
+        margin-bottom: 10px; /* Espacio entre los iconos */
     }
 }
 
