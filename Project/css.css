@@ -7,20 +7,12 @@
     url('Font/B612-Regular.woff') format('woff');
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 600px) {
     body {
         font-size: 14px; /* Se reduce el tamaño de la fuente para pantallas pequeñas */
     }
     #icono {
-        position: absolute;
         width: 25px;
-        height: auto;
-    }
-    #footer {
-        flex-wrap: wrap; /* Envuelve los iconos en varias líneas*/
-    }
-    #footer a{
-        margin: 5px;
     }
 }
 
