@@ -12,15 +12,12 @@
         font-size: 14px; /* Se reduce el tamaño de la fuente para pantallas pequeñas */
     }
     #icono {
+        position: absolute;
         width: 25px;
     }
     .banner img {
         object-position: center;
         object-fit: fill;
-        width: 100%;
-        overflow-x: hidden;
-    }
-    .banner {
         width: 100%;
         overflow-x: hidden;
     }
