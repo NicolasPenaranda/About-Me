@@ -9,72 +9,89 @@
 
 body {
     margin: 0;
-    background-color: #F5F5DC ;
-    color: #800000;
-    font-family: 'fuente';
-    /*#c09d79*/
+    background-color: #F4E4C8 ;
+    color: #7C3030;
+    font-family: 'fuente', monospace;
 }
 
-header {
-    margin-top: 100px;
-}
-
-.titulo {
-    text-align: center;
-}
-
-.barra-navegacion ul {
-    position: fixed; /* Fija la posición de la barra de navegación */
-    top: 0; /* Coloca la barra de navegación en la parte superior de la ventana del navegador */
-    width: 100%; /* Ocupa todo el ancho de la ventana */
-    list-style-type: none; /* Quita los puntos de la lista */
-    padding: 0; /* Elimina el espacio interior de la lista */
-    padding-top: 25px;
-    margin: 0; /* Elimina el margen exterior de la lista */
-    text-align: center; /* Centra los elementos horizontalmente */
+footer{
+    position: relative;
+    margin: 0;
+    top: 0;
+    background-color: #7C3030;
     height: 50px;
-    font-size: 150%;
-    background-color: #B88B5C;
-}
-
-.barra-navegacion li {
-    display: inline-block; /* Muestra los elementos de lista en línea */
-    margin-right: 100px; /* Añade un espacio entre los elementos de lista */
-}
-
-.barra-navegacion a {
-    text-decoration: none; /* Quita el subrayado de los hipervínculos */
-    color: #800000; /* Color de los hipervínculos */
-}
-
-.footer {
-    list-style-type: none;
-    position: relative; 
-    bottom: 0; 
-    width: 100%; 
-    background-color: #B88B5C;
     text-align: center;
-    padding-bottom: 25px;
 }
 
-.footer a {
-    text-decoration: none; /* Quita el subrayado de los hipervínculos */
-    color: #800000; /* Color de los hipervínculos */
-    font-size: 150%;
-    margin: 0 10px
+footer a {
+    position: relative;
+    top: 12.5px;
+    margin: 50px;
+    color: #F4E4C8;
+    text-decoration: none;
+}
+
+.banner {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    z-index: 1; 
+}
+
+.banner img {
+    object-position: center 40%;
+    object-fit: cover;
+    width: 1500px;
+    height: 400px;
+}
+
+#inicio {
+    background-color: #7C3030;
+    color: #F4E4C8;
+    position: relative;
+    padding: 0;
+    margin-top: -10px;
+}
+
+#foto {
+    position: relative;
+    object-fit: cover;
+    object-position: center 25%;
+    background-image: url(Yo.jpg);
+    height: 275px;
+    width: 275px;
+    border-radius: 50%;
+    border: 5px solid #7C3030;
+    top: 50%; 
+    left: 13%; 
+    transform: translate(-50%, -50%); 
+    z-index: 2;
+}
+
+#nombre {
+    position: relative;
+    height: auto;
+    width: auto;
+    font-size: 24px;
+    margin-top: -8.5%;
+    left: 3.5%;
+    z-index: 2;
 }
 
 #redes {
-    text-align: center;
-    color: #800000;
-} 
-
-#foto {
-    background-image: url(Yo.jpg);
-    height: 300px;
+    position: relative;
+    z-index: 2;
 }
 
 #contenido {
-    margin-right: 50px;
-    margin-left: 50px;
+    margin: 3.5%;
+    text-align: justify;
 }
+
+#descripcion {
+    margin: 3.5%;
+    margin-top: 0;
+    text-align: justify;
+}
+
+

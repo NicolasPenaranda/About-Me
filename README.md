@@ -13,6 +13,7 @@ Este repositorio tiene como objetivo principal hablar sobre la vida principal de
 - Sobre mí: Foto de Instagram
 - Intereses: Imagen sobre el parkour, fútbol, y Roma
 - Estudio: Computador y Negocio
+- foto chad: https://i.blogs.es/e23c10/1964-peel-p50_2/840_560.jpg
 
 
 ## Autor: Juan Nicolás Peñaranda Díaz
