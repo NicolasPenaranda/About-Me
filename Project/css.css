@@ -8,6 +8,8 @@
 }
 
 body {
+    max-width: 100%;
+    overflow-x: hidden;
     margin: 0;
     background-color: #F4E4C8 ;
     color: #7C3030;
@@ -19,7 +21,7 @@ footer{
     margin: 0;
     top: 0;
     background-color: #7C3030;
-    height: 50px;
+    height: 75px;
     text-align: center;
 }
 
@@ -29,6 +31,11 @@ footer a {
     margin: 50px;
     color: #F4E4C8;
     text-decoration: none;
+}
+
+h2 {
+    text-align: center;
+    line-height: 1.5em;
 }
 
 .banner {
@@ -51,6 +58,13 @@ footer a {
     position: relative;
     padding: 0;
     margin-top: -10px;
+}
+
+#red-ph {
+    position: absolute;
+    left: 88%;
+    top: 5%;
+    width: 50px;
 }
 
 #foto {
@@ -78,20 +92,24 @@ footer a {
     z-index: 2;
 }
 
-#redes {
-    position: relative;
-    z-index: 2;
-}
-
 #contenido {
+    padding: 0;
     margin: 3.5%;
     text-align: justify;
+    line-height: 1.5em;
+    font-size: 18px;
 }
 
 #descripcion {
+    line-height: 1.5em;
     margin: 3.5%;
     margin-top: 0;
+    padding-bottom: 40px;
     text-align: justify;
+    font-size: 18px;
 }
 
-
+#icono {
+    position: absolute;
+    width: 50px;
+}
