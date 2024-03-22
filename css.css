@@ -12,10 +12,10 @@
         font-size: 14px; /* Se reduce el tamaño de la fuente para pantallas pequeñas */
         overflow-x: hidden;
     }
-    #icono {
-        position: static; /* Cambiar a posición estática para permitir el flujo del documento */
-        display: block; /* Cambiar a elemento de bloque para apilar verticalmente */
-        margin-bottom: 10px; /* Espacio entre los iconos */
+    .icono {
+        position: absolute;
+        width: 25px;
+
     }
 }
 
@@ -64,6 +64,11 @@ footer a {
     object-fit: cover;
     width: 1500px; /*Establece el tamaño del banner*/
     height: 400px;
+}
+
+.icono {    /*Iconos de las redes sociales*/
+    position: absolute;
+    width: 50px;
 }
 
 #portada {
@@ -125,7 +130,3 @@ footer a {
     font-size: 18px;
 }
 
-#icono {    /*Iconos de las redes sociales*/
-    position: absolute;
-    width: 50px;
-}
