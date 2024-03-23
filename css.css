@@ -63,6 +63,18 @@ li{
     display: inline;
 }
 
+table {
+    width: 80%; 
+    border-collapse: collapse; 
+    margin: 20px auto; 
+    text-align: center;
+}
+th, td {
+    padding: 10px;
+    text-align: center; 
+    border: 1px solid 7C3030; /
+}
+
 .banner {           
     position: relative;     /*Se establece la posición de la "caja" del banner*/
     width: 100%;
@@ -116,6 +128,23 @@ li{
     left: 13%; 
     transform: translate(-50%, -50%); 
     z-index: 2;
+}
+
+#gatos{
+    display: flex;
+    margin-right: 10px;
+}
+
+#chaplin {
+    width: 300px;
+    display: block; /* Hace que la imagen sea un bloque */
+    margin: 0 auto; 
+}
+
+#fito{
+    width: 300px;
+    display: block; /* Hace que la imagen sea un bloque */
+    margin: 0 auto; 
 }
 
 #nombre {
