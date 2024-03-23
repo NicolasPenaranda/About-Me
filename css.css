@@ -17,6 +17,10 @@
         width: 25px;
 
     }
+    #gatos{
+        flex-direction: column;
+        margin-right: 0;
+    }
 }
 
 body {
