@@ -37,19 +37,30 @@ h2 {
 
 footer{
     position: relative;
-    margin: 0;
-    top: 0;
+    margin: 0 auto;
     background-color: #7C3030;
     height: 75px;
     text-align: center;
+    width: 100%;
+
 }
 
 footer a {
-    position: relative; /*Se establece el tamaño y la posición de los hipervinculos*/
+    position: relative; 
     top: 12.5px;
-    margin: 50px;
+    margin: 0 auto;
     color: #F4E4C8;
     text-decoration: none;
+    text-align: center;
+    height: auto;
+    display: inline-block;
+    outline: none;
+    margin-right: 4.1%;
+
+}
+
+li{
+    display: inline;
 }
 
 .banner {           
@@ -66,9 +77,13 @@ footer a {
     height: 400px;
 }
 
-.icono {    /*Iconos de las redes sociales*/
-    position: absolute;
-    width: 50px;
+.icono {    
+    position: relative;
+    width: auto;
+    height: 50px;
+    box-sizing: border-box;
+    text-align: center;
+    line-height: 4.4;
 }
 
 #portada {
@@ -130,3 +145,6 @@ footer a {
     font-size: 18px;
 }
 
+#cancion {
+    text-align: center;
+}
